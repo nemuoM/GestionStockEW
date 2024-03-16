@@ -1,0 +1,47 @@
+# Turn rewrite engine on
+Options +FollowSymlinks
+RewriteEngine on
+
+# map neat URL to internal URL
+RewriteRule ^connexion/$   index.php?action=connexion [nc]
+
+RewriteRule ^marque/$   index.php?data=marque [nc]
+RewriteRule ^marque/([0-9]+)/$   index.php?data=marque&idM=$1 [nc]
+
+RewriteRule ^genre/$    index.php?data=genre [nc]
+RewriteRule ^genre/([0-9]+)/$    index.php?data=genre&idG=$1 [nc]
+
+RewriteRule ^couleur/$   index.php?data=couleur [nc]
+RewriteRule ^couleur/([0-9]+)/$    index.php?data=couleur&idC=$1 [nc]
+
+RewriteRule ^style/$   index.php?data=style [nc]
+RewriteRule ^style/([0-9]+)/$    index.php?data=style&idS=$1 [nc]
+
+RewriteRule ^mouvement/$   index.php?data=mouvement [nc]
+RewriteRule ^mouvement/([0-9]+)/$    index.php?data=mouvement&idMouv=$1 [nc]
+
+RewriteRule ^matiere/$   index.php?data=matiere [nc]
+RewriteRule ^matiere/([0-9]+)/$    index.php?data=matiere&idMat=$1 [nc]
+
+RewriteRule ^statut/$   index.php?data=statut [nc]
+RewriteRule ^transporteur/$   index.php?data=transporteur [nc]
+RewriteRule ^changement/([0-9]+)/$   index.php?data=changement&idC=$1 [nc]
+
+RewriteRule ^commande/$   index.php?data=cmd [nc]
+RewriteRule ^commande/([0-9]+)/$   index.php?data=cmd&idC=$1 [nc]
+
+RewriteRule ^client/$   index.php?data=client [nc]
+
+RewriteRule ^montresa/$   index.php?data=montresasc [nc]
+RewriteRule ^montresa/([0-9]+)/$    index.php?data=montresasc&idM=$1 [nc]
+
+RewriteRule ^montresd/$   index.php?data=montresdesc [nc]
+RewriteRule ^montresd/([0-9]+)/$    index.php?data=montresdesc&idM=$1 [nc]
+
+RewriteRule ^montre/update/$      index.php?action=seuil [nc]
+
+RewriteRule ^reapro/$      index.php?data=reapro [nc]
+RewriteRule ^reapro/update/$      index.php?action=reapro [nc]
+
+RewriteRule ^demande/$      index.php?data=dmd [nc]
+RewriteRule ^demande/details/([0-9]+)/$      index.php?data=details&idD=$1 [nc]

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GestionStockEW.PageDetailsReapro"
+             Title="Commande de nouvelle montres">
+    <!--Margin : Gauche, haut, droite, bas -->
+    <VerticalStackLayout>
+        <Image x:Name="imgM" WidthRequest="300"/>
+        <StackLayout Margin="20,0,0,0">
+            <Label x:Name="lblFour" FontSize="30" FontFamily="GSKPrecision"/>
+            <Label x:Name="lblAdresse" Text="Adresse: " Margin="15,10,0,0" FontSize="20" FontFamily="ConsoBold"/>
+            <Label x:Name="lblVille" Text="Ville: " Margin="15,0,0,0" FontSize="20" FontFamily="ConsoBold"/>
+            <Label x:Name="lblCp" Text="Code postal: " Margin="15,0,0,0" FontSize="20" FontFamily="ConsoBold"/>
+        </StackLayout>
+        <Label x:Name="lblRea" Text="Réaprovisionnement de la " TextColor="Black" Margin="50,25,0,0" 
+               FontSize="20" FontFamily="GSKPrecision" TextDecorations="Underline" FontAttributes="Bold"/>
+        <HorizontalStackLayout HorizontalOptions="Center" Margin="0,15,0,0">
+            <Button x:Name="btnMoins" Clicked="btnMoins_Clicked" Text="-" FontSize="20" WidthRequest="100" BackgroundColor="Gray"/>
+            <Entry x:Name="entryStock" WidthRequest="100" Keyboard="Numeric" HorizontalTextAlignment="Center"/>
+            <Button x:Name="btnPlus" Clicked="btnPlus_Clicked" Text="+" FontSize="20" WidthRequest="100" BackgroundColor="Gray"/>
+        </HorizontalStackLayout>
+        <HorizontalStackLayout x:Name="grpModif" HorizontalOptions="Center" Spacing="50" Margin="0,25,0,0" IsVisible="false">
+            <Button x:Name="btnSave" Clicked="btnSave_Clicked" Text="Enregistrer" WidthRequest="150" BackgroundColor="DarkSeaGreen" TextColor="Black" FontFamily="GSKPrecision" FontSize="20"/>
+            <Button x:Name="btnCancel" Clicked="btnCancel_Clicked" Text="Annuler"  WidthRequest="150" BackgroundColor="IndianRed" TextColor="Black" FontFamily="GSKPrecision" FontSize="20"/>
+        </HorizontalStackLayout>
+
+    </VerticalStackLayout>
+</ContentPage>

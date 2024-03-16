@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GestionStockEW.PageDetails"
+             Title="Configuration du seuil">
+    <!--Margin : Gauche, haut, droite, bas -->
+    <ScrollView>
+        <VerticalStackLayout>
+            <Image x:Name="imgM" Source="{Binding Image}" WidthRequest="300"/>
+            <StackLayout HorizontalOptions="Center">
+                <Label x:Name="lblMarque" FontSize="25"  FontFamily="ConsoBold"/>
+                <Label x:Name="lblNom" FontSize="40" FontFamily="GSKPrecision"/>
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto" />
+                        <ColumnDefinition Width="Auto" />
+                    </Grid.ColumnDefinitions>
+
+                    <Label x:Name="lblGenre" Text="Genre: " Grid.Column="0" Grid.Row="0" FontSize="20" />
+                    <Label x:Name="lblCouleur" Text="Couleur: " Grid.Column="1" Grid.Row="0" Margin="50,0,0,0" FontSize="20"/>
+                    <Label x:Name="lblStyle" Text="Style: " Grid.Column="0" Grid.Row="1" Margin="0,0,0,0" FontSize="20" />
+                    <Label x:Name="lblMouv" Text="Mouvement: " Grid.Column="1" Grid.Row="1" Margin="50,0,0,0" FontSize="20" />
+                    <Label x:Name="lblMatC" Text="Matériel cadran: " Grid.Column="0" Grid.Row="2" Margin="0,0,0,0" FontSize="20" />
+                    <Label x:Name="lblMatB" Text="Matériel bracelet: " Grid.Column="1" Grid.Row="2" Margin="50,0,0,0" FontSize="20" />
+
+                </Grid>
+            </StackLayout>
+            <Label Text="Modifier le seuil d'alerte:" TextColor="Black" Margin="200,25,0,0" 
+                   FontSize="20" FontFamily="GSKPrecision" TextDecorations="Underline" FontAttributes="Bold"/>
+            <HorizontalStackLayout HorizontalOptions="Center" Margin="0,15,0,0">
+                <Button x:Name="btnMoins" Text="-" Clicked="btnMoins_Clicked" FontSize="20" WidthRequest="100" BackgroundColor="Gray"/>
+                <Entry x:Name="entrySeuil" WidthRequest="100" Keyboard="Numeric" HorizontalTextAlignment="Center"/>
+                <Button x:Name="btnPlus" Text="+" Clicked="btnPlus_Clicked" FontSize="20" WidthRequest="100" BackgroundColor="Gray"/>
+            </HorizontalStackLayout>
+            <HorizontalStackLayout x:Name="grpModif" HorizontalOptions="Center" Spacing="50" Margin="0,25,0,0" IsVisible="false">
+                <Button x:Name="btnSave" Text="Enregistrer" Clicked="btnSave_Clicked" WidthRequest="150"
+                        BackgroundColor="DarkSeaGreen" TextColor="Black" FontFamily="GSKPrecision" FontSize="20"/>
+                <Button x:Name="btnCancel" Clicked="btnCancel_Clicked" Text="Annuler"  WidthRequest="150" BackgroundColor="IndianRed" TextColor="Black" FontFamily="GSKPrecision" FontSize="20"/>
+            </HorizontalStackLayout>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

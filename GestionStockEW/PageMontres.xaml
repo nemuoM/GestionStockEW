@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GestionStockEW.PageMontres"
+             Title="Montres"
+             Loaded="ContentPage_Loaded">
+    <!--Margin : Gauche, haut, droite, bas -->
+    <ScrollView>
+    <VerticalStackLayout HorizontalOptions="Center">
+            <HorizontalStackLayout HorizontalOptions="Center" Spacing="75">
+                <Picker x:Name="pickMarque" SelectedIndexChanged="pickMarque_SelectedIndexChanged"
+                        Title="Sélectionner une marque" Margin="0,0,10,0"/>
+                <HorizontalStackLayout Spacing="20">
+                    <RadioButton x:Name="radioCroissant" Content="Stock croissant" IsChecked="True" CheckedChanged="radio_CheckedChanged"/>
+                    <RadioButton x:Name="radioDecroissant" Content="Stock décroissant" CheckedChanged="radio_CheckedChanged"/>
+                </HorizontalStackLayout>
+            </HorizontalStackLayout>
+        <CollectionView x:Name="colViewMontre" SelectionMode="Single" SelectionChanged="colViewMontre_SelectionChanged"
+                        Margin="200,0,0,0" MaximumHeightRequest="900">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Grid Padding="10">
+                        <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto" />
+                            </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="auto"/>
+                                <ColumnDefinition Width="auto"/>
+                            </Grid.ColumnDefinitions>
+                        <Image Grid.Column="0" Grid.Row="0" Source="{Binding Image}" WidthRequest="100" Margin="0,0,0,0"/>
+                        <Label Grid.Column="1" Grid.Row="0" Text="{Binding Affichage}" FontFamily="GSKPrecision" Margin="20,0,0,0" FontSize="25"/>
+                    </Grid>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+    </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

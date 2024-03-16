@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GestionStockEW.PageAccueil"
+             Title="Accueil">
+    <!--Margin : Gauche, haut, droite, bas -->
+    <VerticalStackLayout >
+        <Button x:Name="btnDeco" Clicked="btnDeco_Clicked" HorizontalOptions="End"
+                Text="Déconnexion" TextColor="White" FontSize="20" FontFamily="GSKPrecision"
+                BackgroundColor="Red" Margin="0,10,10,15" WidthRequest="200"/>
+        <VerticalStackLayout HorizontalOptions="Center" Margin="0,100,0,0">
+            <Label x:Name="lblAccueil"
+               Text = "Bonjour "
+               Margin = "0,20,0,25" FontSize = "30" FontFamily="ConsoRegular"/>
+
+            <Button x:Name="btnMontre" Clicked="btnMontre_Clicked"
+                    Text="Montres" TextColor="Black" FontSize="25" FontFamily="GSKPrecision"
+                    BackgroundColor="#e0cda9" Margin="0,0,0,15" WidthRequest="350"/>
+
+            <Button x:Name="btnRepro" Clicked="btnRepro_Clicked"
+                Text="Réapprovisonnement" TextColor="Black" FontSize="25" FontFamily="GSKPrecision"
+                BackgroundColor="#e0cda9" Margin="0,0,0,15" WidthRequest="350"/>
+
+            <Button x:Name="btnCommande" Clicked="btnCommande_Clicked"
+                    Text="Commandes" FontSize="25" FontFamily="GSKPrecision" TextColor="Black"
+                    BackgroundColor="#e0cda9" Margin="0,0,0,15" WidthRequest="350"/>
+            
+            <Button x:Name="btnDemande" Clicked="btnDemande_Clicked"
+                    Text="Demandes" FontSize="25" FontFamily="GSKPrecision" TextColor="Black"
+                    BackgroundColor="#e0cda9" Margin="0,0,0,15" WidthRequest="350"/>
+        </VerticalStackLayout>
+        
+        
+    </VerticalStackLayout>
+</ContentPage>

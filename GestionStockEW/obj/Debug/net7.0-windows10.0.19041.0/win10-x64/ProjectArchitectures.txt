@@ -1,0 +1,1 @@
+C:\Users\moouu\source\repos\GestionStockEW\GestionStockEW\GestionStockEW.csproj;x64

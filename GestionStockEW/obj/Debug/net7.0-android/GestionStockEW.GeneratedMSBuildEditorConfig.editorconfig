@@ -1,0 +1,99 @@
+is_global = true
+build_property.TargetFramework = net7.0-android
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = true
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.RootNamespace = GestionStockEW
+build_property.ProjectDir = C:\Users\moouu\source\repos\GestionStockEW\GestionStockEW\
+
+[C:/Users/moouu/source/repos/GestionStockEW/GestionStockEW/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = GestionStockEW.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/moouu/source/repos/GestionStockEW/GestionStockEW/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = GestionStockEW.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Users/moouu/source/repos/GestionStockEW/GestionStockEW/PageAccueil.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = GestionStockEW.PageAccueil.xaml
+build_metadata.AdditionalFiles.TargetPath = PageAccueil.xaml
+build_metadata.AdditionalFiles.RelativePath = PageAccueil.xaml
+
+[C:/Users/moouu/source/repos/GestionStockEW/GestionStockEW/PageCommandes.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = GestionStockEW.PageCommandes.xaml
+build_metadata.AdditionalFiles.TargetPath = PageCommandes.xaml
+build_metadata.AdditionalFiles.RelativePath = PageCommandes.xaml
+
+[C:/Users/moouu/source/repos/GestionStockEW/GestionStockEW/PageConnexion.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = GestionStockEW.PageConnexion.xaml
+build_metadata.AdditionalFiles.TargetPath = PageConnexion.xaml
+build_metadata.AdditionalFiles.RelativePath = PageConnexion.xaml
+
+[C:/Users/moouu/source/repos/GestionStockEW/GestionStockEW/PageDemande.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = GestionStockEW.PageDemande.xaml
+build_metadata.AdditionalFiles.TargetPath = PageDemande.xaml
+build_metadata.AdditionalFiles.RelativePath = PageDemande.xaml
+
+[C:/Users/moouu/source/repos/GestionStockEW/GestionStockEW/PageDetails.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = GestionStockEW.PageDetails.xaml
+build_metadata.AdditionalFiles.TargetPath = PageDetails.xaml
+build_metadata.AdditionalFiles.RelativePath = PageDetails.xaml
+
+[C:/Users/moouu/source/repos/GestionStockEW/GestionStockEW/PageDetailsCmd.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = GestionStockEW.PageDetailsCmd.xaml
+build_metadata.AdditionalFiles.TargetPath = PageDetailsCmd.xaml
+build_metadata.AdditionalFiles.RelativePath = PageDetailsCmd.xaml
+
+[C:/Users/moouu/source/repos/GestionStockEW/GestionStockEW/PageDetailsDmd.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = GestionStockEW.PageDetailsDmd.xaml
+build_metadata.AdditionalFiles.TargetPath = PageDetailsDmd.xaml
+build_metadata.AdditionalFiles.RelativePath = PageDetailsDmd.xaml
+
+[C:/Users/moouu/source/repos/GestionStockEW/GestionStockEW/PageDetailsReapro.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = GestionStockEW.PageDetailsReapro.xaml
+build_metadata.AdditionalFiles.TargetPath = PageDetailsReapro.xaml
+build_metadata.AdditionalFiles.RelativePath = PageDetailsReapro.xaml
+
+[C:/Users/moouu/source/repos/GestionStockEW/GestionStockEW/PageMontres.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = GestionStockEW.PageMontres.xaml
+build_metadata.AdditionalFiles.TargetPath = PageMontres.xaml
+build_metadata.AdditionalFiles.RelativePath = PageMontres.xaml
+
+[C:/Users/moouu/source/repos/GestionStockEW/GestionStockEW/PageReapro.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = GestionStockEW.PageReapro.xaml
+build_metadata.AdditionalFiles.TargetPath = PageReapro.xaml
+build_metadata.AdditionalFiles.RelativePath = PageReapro.xaml
+
+[C:/Users/moouu/source/repos/GestionStockEW/GestionStockEW/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = GestionStockEW.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/moouu/source/repos/GestionStockEW/GestionStockEW/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = GestionStockEW.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
